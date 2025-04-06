@@ -1,0 +1,114 @@
+ul.bjqs {
+    position: relative;
+}
+ul.bjqs li.bjqs-slide {
+    display: block;
+    position: relative;
+    margin-left: 0;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+}
+
+ul.bjqs li.bjqs-slide div.overlay {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 500;
+    overflow: hidden;
+}
+ul.bjqs li.bjqs-slide div.overlay div.inner {
+    background: #fff;
+    background: rgb(255,255,255);
+    background: rgba(255,255,255,0.85);
+    display: block;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 15px;
+    border-radius: 4px;
+}
+ul.bjqs li.bjqs-slide h2.title {
+    display: block;
+    line-height: 46px;
+    font-size: 46px;
+    color: rgb(51, 51, 51);
+    font-weight: 300;
+    text-align: center;
+}
+ul.bjqs li.bjqs-slide div.overlay a.readmore {
+    display: block;
+    position: absolute;
+    width: 125px;
+    height: 45px;
+    line-height: 44px;
+    border: 1px solid #ff9bd2;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    color: #ff9bd2;
+    background: #fff;
+    background: rgb(255,255,255);
+    background: rgba(255,255,255,0.85);
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+}
+ul.bjqs li.bjqs-slide div.overlay a.readmore:hover,
+ul.bjqs li.bjqs-slide div.overlay a.readmore:active,
+ul.bjqs li.bjqs-slide div.overlay a.readmore:focus {
+    border: 1px solid #ff9bd2;
+    color: #fff;
+    background: #ff9bd2;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+ul.bjqs li.bjqs-slide p.caption {
+    display: block;
+    line-height: 18px;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    font-weight: 300;
+    text-align: center;
+    margin-top: 18px;
+}
+ul.bjqs-controls.v-centered li.bjqs-prev a,
+ul.bjqs-controls.v-centered li.bjqs-next a {
+    display: block;
+    position: absolute;
+    line-height: 44px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    line-height: 35px;
+    color: #ff9bd2;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: #fff;
+    background: rgb(255,255,255);
+    background: rgba(255,255,255,0.85);
+}
+ul.bjqs-controls.v-centered li.bjqs-prev a:hover,
+ul.bjqs-controls.v-centered li.bjqs-next a:hover,
+ul.bjqs-controls.v-centered li.bjqs-prev a:active,
+ul.bjqs-controls.v-centered li.bjqs-next a:active {
+    color: #fff;
+    background: #ff9bd2;
+    text-decoration: none;
+    font-weight: normal;
+}
+ul.bjqs-controls.v-centered li.bjqs-next a{
+    z-index: 999;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+ul.bjqs-controls.v-centered li.bjqs-prev a{
+    z-index: 999;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+

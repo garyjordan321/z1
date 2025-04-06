@@ -1,0 +1,29 @@
+/*
+Theme Name: (ATL) atlantamagazine.coms
+Template: newspaper
+Author: InnoScale
+Description: Newspaper theme customized for atlantamagazine.com
+Version: 1
+*/
+.wp-caption-text {
+  margin: 6px 0 6px 0;
+}
+.wp-caption .credits {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 9px;
+  font-size: 0.5625rem;
+  text-align: left;
+}
+article.post {
+  margin-top: 16px;
+}
+.td-post-title .td-excerpt {
+  margin-bottom: 15px;
+}
+.post blockquote p {
+  font-size: unset;
+  font-weight: normal;
+  text-transform: none;
+}
+/*# sourceMappingURL=style.css.map */

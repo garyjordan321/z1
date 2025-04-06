@@ -1,0 +1,41 @@
+.teaser-cta-button {
+    background: #ed1c24;
+    border-color: #ed1c24;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 12px;
+    font-family: arial, helvetica, sans-serif;
+    margin: 20px 0 0;
+    cursor: pointer;
+    display: block;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    transition: all .15s linear;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 15px 24px;
+}
+
+#optin-modal input[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    background: #ed1c24;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+#optin-modal .gform_ajax_spinner {
+    display: block;
+    margin: 10px auto 0;
+}
+
+#optin-modal input[type="submit"]:hover {
+    text-decoration: underline;
+}
+
+#optin-modal .gfield {
+    padding-right: unset;
+    width:100%;
+}
